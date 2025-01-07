@@ -1,0 +1,15 @@
+.game-container {
+  border: 2px solid #a9a9a9;
+  width: 500px;
+  height: 500px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  gap: 5px;
+  width: 360px;
+  height: 360px;
+  margin: 55px 0 0 60px;
+}
